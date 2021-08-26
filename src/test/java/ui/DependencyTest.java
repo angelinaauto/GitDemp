@@ -19,6 +19,7 @@ public class DependencyTest {
 		driver.findElement(By.xpath("//*[@id=\"gh-ac\"]")).sendKeys("mobile");
 		driver.findElement(By.xpath("//*[@id=\"gh-btn\"]")).click();
 		System.out.println(driver.findElement(By.xpath("//h3[contains(text(),'Category')]")).isDisplayed());
+		System.out.println("This is the develop branch");
 		driver.close();
 		
 	}

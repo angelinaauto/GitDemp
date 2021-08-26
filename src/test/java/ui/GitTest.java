@@ -17,6 +17,8 @@ WebDriverManager.chromedriver().setup();
 		
 		driver.manage().window().maximize();
 		
+		System.out.println("Ebay tab has been opened and closed");
+		
 		driver.close();
 
 	}
